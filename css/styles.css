@@ -1,0 +1,17 @@
+.column {
+  float: left;
+  width: 300px;
+  color: red;
+  margin: 12px;
+  border: 2px solid red;
+  padding: 4px;
+  background-color: black;
+}
+
+body {
+  text-align: center;
+}
+
+.column img {
+  width: 50%;
+}
