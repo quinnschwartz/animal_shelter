@@ -10,8 +10,21 @@
 
 body {
   text-align: center;
+  background-color: gray;
 }
 
 .column img {
   width: 50%;
+}
+
+.column h1 {
+  font-style: italic;
+  font-weight: bold;
+  font-size: 35pt;
+  color: gray;
+}
+
+#h1 {
+  font-size: 50pt;
+  color: green;
 }
