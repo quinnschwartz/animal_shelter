@@ -6,19 +6,39 @@
   }
 }
 
+@media screen and (max-width: 480 px) {
+  .banner {
+    width: 400px;
+    padding: 30px;
+  }
+}
+
+
+#img {
+  float: right;
+  width: 200px;
+  height: 100px;
+  padding-right: 80px;
+}
+
+.header {
+  width: 300px;
+  float: left;
+}
+
 .column {
   float: left;
   width: 300px;
-  color: red;
+  color: purple;
   margin: 12px;
-  border: 2px solid red;
+  border: 2px solid purple;
   padding: 4px;
   background-color: black;
 }
 
 body {
   text-align: center;
-  background-color: gray;
+  background-image: url(../img/animals.jpg);
 }
 
 .column img {
@@ -29,10 +49,10 @@ body {
   font-style: italic;
   font-weight: bold;
   font-size: 35pt;
-  color: gray;
+  color: purple;
 }
 
 #h1 {
   font-size: 50pt;
-  color: green;
+  text-align: left;
 }
